@@ -56,3 +56,16 @@ footer {
     font-size: 30px;
     color: black;
 }
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
