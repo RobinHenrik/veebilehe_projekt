@@ -32,10 +32,14 @@ main {
     padding: 20px;
     flex: 1;
 }
-footer {
+.footer {
     background-color: #3498db;
     color: #fff;
     padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .intro {
     margin: 20px;
