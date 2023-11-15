@@ -69,3 +69,8 @@ footer {
     display: table;
     clear: both;
 }
+.pilt {
+background-image:url('kaerahelbepuder.jpeg')
+background-size:cover;
+background-image:no-repeat;
+}
