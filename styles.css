@@ -67,6 +67,8 @@ main {
     float: left;
     width: 50%;
     padding: 10px;
+    background-image: no-repeat;
+    background-size: cover;
 }
 .row:after {
     content: "";
@@ -74,7 +76,12 @@ main {
     clear: both;
 }
 .pilt {
-background-image:url('kaerahelbepuder.jpeg')
-background-size:cover;
-background-image:no-repeat;
+background-image: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.inva {
+opacity: 0;
+width: 100%;
+height: 100%;
 }
