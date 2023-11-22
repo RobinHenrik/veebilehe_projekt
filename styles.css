@@ -51,6 +51,29 @@ main {
     background-color: #fff;
     border: 1px solid #ccc;
     margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.recipe img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recipe-details {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.ingredients,
+.instructions {
+    margin-top: 15px;
+}
+
+.ingredients h2,
+.instructions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 .back-link {
     position: absolute;
