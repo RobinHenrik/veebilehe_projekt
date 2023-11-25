@@ -1,9 +1,9 @@
 function esitaPildid(){
     setTimeout(function() {
-    document.getElementById("hommik").style.backgroundImage="url(kaerahelbepuder.jpeg)";
+    document.getElementById("hommik").style.backgroundImage="url(kaerahelbepuder.webp)";
     }, 0)
     setTimeout(function() {
-    document.getElementById("hommik").style.backgroundImage="url(oplett.jpeg)";
+    document.getElementById("hommik").style.backgroundImage="url(harg.jpg)";
     }, 5000)
 }
 esitaPildid();
