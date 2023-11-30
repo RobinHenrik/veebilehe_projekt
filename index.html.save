@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ee">
+<head>
+    <meta charset="UTF-8">
+    <title>Taskukohased toidud tudengile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Taskukohased toidud tudengile</h1>
+    </header>
+    <div class="intro">
+        <p>Meie veebileht on loodud tudengitele, kes ei tea, mida süüa teha. <br> Oma veebilehel jagame taskukohaseid ning kergeid retsepte. Iga retsepti juures on kirjas ligikaudne hind ning valmistamisaeg.</p>
+    </div>
+    <nav class="row">
+        <nav title="Hommikusöögid" class="column" id="hommik">
+            <a id="homm" href="hommikusoogid.html"><img class='inva' src="kaerahelbepuder.jpeg" alt="Puder"><script src="esitaPilt.js"></script>></a>
+        </nav>
+        <nav class="column" style="background-color:rgb(197, 223, 245);">
+            <a href="lounasoogid.html">Lõuna/Õhtusöögid</a>
+        </nav>
+    </nav>
+    <footer class="footer">
+        <p>&copy; 2023</p>
+    </footer>
+    <script src="esitaPilt.js"></script>
+</body>
+</html>

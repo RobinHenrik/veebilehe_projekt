@@ -90,8 +90,6 @@ main {
     float: left;
     width: 50%;
     padding: 10px;
-    background-image: no-repeat;
-    background-size: cover;
 }
 .row:after {
     content: "";
@@ -102,4 +100,24 @@ main {
 opacity: 0;
 width: 100%;
 height: 100%;
+}
+.isa {
+    position: relative;
+    font-family: Arial;
+    background-image: no-repeat;
+    background-size: cover;
+}
+  
+.poeg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tekst {
+    color:white;
+    font-size: 24px;
 }
