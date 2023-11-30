@@ -1,4 +1,6 @@
-function esitaPildid(){
+//Looja Martin Toomiste
+
+function esitaPildid(){ //sama, mis esitaPilt.js kuid pildivahetus ajastus on 2.5s nihkes
     setTimeout(function() {
     document.getElementById("isa2pilt").style.backgroundImage="url(pastabolognese.jpg)";
     }, 2500)
