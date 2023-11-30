@@ -58,6 +58,10 @@ main {
     max-width: 100%;
     border-radius: 8px;
     margin-bottom: 20px;
+    float: left;
+    width: 640px;
+    height: 405px;
+    object-fit: cover;
 }
 
 .recipe-details {
