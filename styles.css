@@ -40,6 +40,15 @@ main {
     bottom: 0;
     width: 100%;
 }
+.footer_esileht {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
 .intro {
     margin: 20px;
     text-align: center; /* Teksti keskele viimiseks */
