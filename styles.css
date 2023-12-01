@@ -115,7 +115,7 @@ height: 100%;
 .isa {
     position: relative;
     font-family: Arial;
-    background-image: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
   
