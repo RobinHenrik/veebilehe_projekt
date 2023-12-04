@@ -8,7 +8,7 @@ function esitaPildid(){   //funktsiooni algus
     document.getElementById("isapilt").style.backgroundImage="url(kaerahelbepuder.webp)"; //leiab elemendi id-ga "isapilt" ja muudab selle tausta
     }, 0)
     setTimeout(function() {
-    document.getElementById("isapilt").style.backgroundImage="url(munaPuder.webp)"; //sama nagu eelmine aga vahetab tausta alles 5s möödumisel
+    document.getElementById("isapilt").style.backgroundImage="url(munapuder.webp)"; //sama nagu eelmine aga vahetab tausta alles 5s möödumisel
     }, 5000)
     setTimeout(function() {
         document.getElementById("isapilt").style.backgroundImage="url(pannkook.jpg)";
@@ -17,7 +17,7 @@ function esitaPildid(){   //funktsiooni algus
         document.getElementById("isapilt").style.backgroundImage="url(harg.jpg)";
     }, 15000)
     setTimeout(function() {
-        document.getElementById("isapilt").style.backgroundImage="url(koduJuust.jpeg)";
+        document.getElementById("isapilt").style.backgroundImage="url(kodujuust.jpeg)";
     }, 20000)
 }
 esitaPildid(); //funktsiooni kasutamine
